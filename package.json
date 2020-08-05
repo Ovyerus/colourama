@@ -1,9 +1,9 @@
 {
-  "name": "colourapp",
+  "name": "colourama",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "export": "nuxt-ts export",
@@ -24,6 +24,7 @@
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.4.10",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "@vue/composition-api": "^1.0.0-beta.3",
     "nuxt": "^2.13.0"
   },
   "devDependencies": {
@@ -39,7 +40,9 @@
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
+    "node-sass": "^4.14.1",
     "prettier": "^2.0.5",
+    "sass-loader": "^9.0.2",
     "stylelint": "^13.6.1",
     "stylelint-config-prettier": "^8.0.1",
     "stylelint-config-standard": "^20.0.0"
