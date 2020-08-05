@@ -8,6 +8,9 @@
         <code>{{ bg }}</code>
 
         <p>Click the background to show or hide controls.</p>
+        <p style="margin-top: 0.5rem;">
+          Created by <a href="https://ovyerus.com">Ovyerus</a>.
+        </p>
       </aside>
     </transition>
   </main>

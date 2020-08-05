@@ -1,6 +1,6 @@
 export default {
   mode: "universal",
-  target: "server",
+  target: "static",
   head: {
     title: "Colourama",
     meta: [
@@ -23,19 +23,7 @@ export default {
   css: [],
   plugins: ["~plugins/composition.ts"],
   components: true,
-  buildModules: [
-    "@nuxt/typescript-build",
-    // Doc: https://github.com/nuxt-community/stylelint-module
-    "@nuxtjs/stylelint-module",
-    [
-      "@nuxtjs/pwa",
-      {
-        meta: {
-          nativeUI: true,
-        },
-      },
-    ],
-  ],
+  buildModules: ["@nuxt/typescript-build", "@nuxtjs/stylelint-module"],
   modules: [],
   build: {},
 };
